@@ -1,27 +1,27 @@
 const peopleArray = [
     {
      id: 9-65-4321,
-      name: "Arafat Sarker",
-      nid: "123-45-6789",
+      name: "Md. Al Arafat Sarker",
+      nid: "4213279369",
       payment: "Bkash",
-      credit: 8000,
-      debit: 1000
+      credit: 0,
+      debit: 0
     },
     {
       id: 9-65-4322,
       name: "Abdullah Rakib",
-      nid: "987-65-4321",
+      nid: "01302171612",
       payment: "Nogod",
-      credit: 7000,
-      debit: 500
+      credit: 0,
+      debit: 0
     },
     {
       id: 9-65-4323,
-      name: "Bob Johnson",
-      nid: "456-78-9012",
-      payment: 1200.75,
-      credit: 6000,
-      debit: 200
+      name: "Shuvo dash",
+      nid: "7811836258",
+      payment: "Bkash",
+      credit: 0,
+      debit: 0
     }
   ];
 //   function tkcalcutta(){

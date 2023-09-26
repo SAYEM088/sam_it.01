@@ -1,7 +1,7 @@
 document.getElementById('btn-submit').addEventListener('click',function(){
     const email= document.getElementById('email-address').value
     const password =document.getElementById('password-field').value
-    if(email=='resmikasona6@gmail.com' || email=='resmikasona6@gmail.com' || email=='sayem.01fficial@gmail.com'){
+    if(email=='resmikasona6@gmail.com' || email=='resmikasona6@gmail.com' || email=='sayem.01fficial@gmail.com'|| email=='mr0100985@gmail.com'){
         window.location.href = 'main.html'
     }
    else{
