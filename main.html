@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMiT</title>
+    <link rel="icon" type="image/x-icon" href="/samit.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-state-300">
+    <main class=" min-h-full">
+    <section class="">
+        <h2 class="font-bold text-5xl my-10 text-purple text-center">DashBoard</h2>
+        <div class="grid grid-cols-3 gap-3 w-9/12 mx-auto">
+            <div class="bg-blue-400 rounded-lg p-8">
+                <h4 class="text-2xl text-white text-center">Credit</h4>
+                <h2 class="text-5xl text-white text-center">$<span id="credit-amount">00</span></h2>
+            </div>
+            <div class="bg-purple-400 rounded-lg p-8">
+                <h4 class="text-2xl text-white text-center">Debited</h4>
+                <h2 class="text-5xl text-white text-center">$<span id="debit-amount">00</span> </h2>
+            </div>
+            <div class="bg-green-400 rounded-lg p-8">
+                <h4 class="text-2xl text-white text-center">Balance</h4>
+                <h2 class="text-5xl text-white text-center">$<span id="balance-amount">00</span></h2>
+            </div>
+        </div>
+    </section>
+    <section class="w-9/12 mx-auto mt-5">
+        <div class="flex a gap-2">
+            <div class="flex-none align-middle">
+                <h1 class="font-bold">01.</h1>
+            </div>
+            <div class="flex-1 align-middle">
+                <h2 class="font-bold">Arafat Sarker</h2>
+            </div>
+            <div class="flex-1 align-middle">
+                <button id="profile-01" class=" bg-orange-500 px-2 py-1 text-white rounded-lg">Profile</button>
+            </div>
+        </div>
+        <div class="flex a gap-2 my-3">
+            <div class="flex-none align-middle">
+                <h1 class="font-bold">02.</h1>
+            </div>
+            <div class="flex-1 align-middle">
+                <h2 class="font-bold">Abdullah Rakib</h2>
+            </div>
+            <div class="flex-1 align-middle">
+                <button id="profile-02" class=" bg-orange-500 px-2 py-1 text-white rounded-lg">Profile</button>
+            </div>
+        </div>
+        <div class="flex a gap-2 my-3">
+            <div class="flex-none align-middle">
+                <h1 class="font-bold">03.</h1>
+            </div>
+            <div class="flex-1 align-middle">
+                <h2 class="font-bold">-------</h2>
+            </div>
+            <div class="flex-1 align-middle">
+                <button id="profile-03" class=" bg-orange-500 px-2 py-1 text-white rounded-lg">Profile</button>
+            </div>
+        </div>
+        
+    </section>
+    <section class="w-11/12 mx-auto mt-4 border rounded-lg p-5">
+        <div class="grid grid-cols-3 gap-2">
+            <div class="">
+                <h1 class="font-bold">ID: <span id></span></h1>
+            </div>
+            <div class="">
+            <h2 class="font-bold"  >NAME: <span class="font-normal text-lg text-lime-800" id="name-e"></span></h2>
+            <h5 class="font-bold" >NID: <span class="font-normal text-lime-800" id="nid-e"></span></h5>
+            </div>
+            
+            <div class="">
+                <h2 class="font-bold">Payment: <span class="font-normal text-lime-800"  id="pay-e"></span></h2>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
